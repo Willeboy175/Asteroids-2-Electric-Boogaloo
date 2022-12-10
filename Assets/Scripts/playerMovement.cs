@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
     float playerSpeed = 1f;
@@ -12,6 +12,7 @@ public class playerMovement : MonoBehaviour
     Vector2 movement;
     Vector3 mousePos;
     Vector2 direction;
+
     // Start is called before the first frame update
     void Start()
     {

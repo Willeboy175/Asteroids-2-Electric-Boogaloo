@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cameraMovement : MonoBehaviour
+public class CameraMovement : MonoBehaviour
 {
     [SerializeField]
     float cameraSpeed = 1f;
@@ -11,6 +11,7 @@ public class cameraMovement : MonoBehaviour
     [SerializeField]
     Transform player;
     Vector2 cameraPos;
+
     // Start is called before the first frame update
     void Start()
     {
